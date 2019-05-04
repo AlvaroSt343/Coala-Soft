@@ -16,5 +16,11 @@ namespace COALA_Soft
         {
             InitializeComponent();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("¿Desea salir?","Aviso..",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            this.Dispose();
+        }
     }
 }

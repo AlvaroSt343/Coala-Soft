@@ -21,5 +21,11 @@ namespace COALA_Soft
         {
             this.Dispose();
         }
+
+        private void entrar_Click(object sender, EventArgs e)
+        {
+            Principal Prin1 = new Principal();
+            Prin1.ShowDialog();
+        }
     }
 }
